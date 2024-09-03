@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #444;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.product-listing, .cart-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-item, .cart-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.product-item img, .cart-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item h3, .cart-item h3 {
+    font-size: 22px;
+}
+
+.product-item p, .cart-item p {
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.product-item button, .cart-item button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.product-item button:hover, .cart-item button:hover {
+    background-color: #218838;
+}
+
+.cart-total {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+/* Add this to styles.css */
+
+.checkout-btn-container {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.checkout-btn-container button, #place-order-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.checkout-btn-container button:hover, #place-order-btn:hover {
+    background-color: #0056b3;
+}
+
+.checkout-summary {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
